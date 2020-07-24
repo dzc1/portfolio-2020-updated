@@ -5051,7 +5051,7 @@ body.colored[class|=page-content] section.contact a {
 	transition:.4s ease height
 }
 .projects .image[class*=item-img] {
-	width:100.5%;
+	width:100%;
 	display:block;
 	cursor:pointer;
 	position:absolute;
