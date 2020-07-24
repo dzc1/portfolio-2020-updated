@@ -5268,6 +5268,7 @@ body.colored[class|=page-content] section.contact a {
 	grid-area:inner;
 	width:100%;
 	left:50%;
+	right: 50%;
 }
 @media only screen and (device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
 	#loader .loader-wrap .des-wrap {
