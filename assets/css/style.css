@@ -5742,8 +5742,8 @@ body.colored[class|=page-content] section.contact a {
 	background-color:#000
 }
 #loader.loading--change .des-inner--stroke {
-	-webkit-text-stroke:1.5px #F5EFE1;
-	text-shadow:1.5px #F5EFE1;
+	-webkit-text-stroke:1px #F5EFE1;
+	text-shadow:1px #F5EFE1;
 }
 @media screen and (max-width: 576px) {
 	#loader.loading--change .des-inner--stroke {
