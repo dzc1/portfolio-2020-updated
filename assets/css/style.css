@@ -255,11 +255,11 @@ body {
 	text-rendering:optimizeLegibility
 }
 ::-moz-selection {
-	background:#F5EFE1;
+	background:#FAF7F0;
 	color:white
 }
 ::selection {
-	background:#F5EFE1;
+	background:#FAF7F0;
 	color:white
 }
 .h1,
@@ -3391,20 +3391,25 @@ header nav.main-navigation #menu-responsive ul li {
 	padding:0 15px
 }
 header nav.main-navigation #menu-responsive ul li:first-of-type {
-	padding-left:0
+	padding-left:40px;
 }
 header nav.main-navigation #menu-responsive ul li:last-of-type {
 	padding-right:0
 }
 @media screen and (max-width: 414px) {
 	header nav.main-navigation #menu-responsive ul li {
-		padding:0 9px;
-		display: table-header-group;
+		padding:05px 40px;
+		display: inline-block;
 	}
 }
 @media screen and (max-width: 374px) {
 	header nav.main-navigation #menu-responsive ul li {
-		padding:0 8px
+		padding: 5px 10px;
+    	padding-left: 0px;
+	}
+
+	header nav.main-navigation #menu-responsive ul li:first-of-type {
+		padding-left:0px;
 	}
 }
 header nav.main-navigation #menu-responsive ul li a {
@@ -4647,7 +4652,7 @@ p span[class*=s-].active:nth-of-type(8) span {
 }
 [class|=page-content] section.intro .about .cta-aside {
 	position:absolute;
-	top:300px;
+	top:340px;
 	left: 20px;
 }
 @media (max-width: 767px) {
@@ -5240,7 +5245,7 @@ body.colored[class|=page-content] section.contact a {
 }
 #loader {
 	position:fixed;
-	background-color:#F5EFE1;
+	background-color:#FAF7F0;
 	top:0;
 	left:0;
 	right:0;
@@ -5350,7 +5355,7 @@ body.colored[class|=page-content] section.contact a {
 	color:#000;
 	font-size:2.5rem;
 	font-weight:400;
-	line-height:1.2;
+	line-height:1.4;
 	font-family:"Monument",
 	sans-serif
 }
@@ -5742,17 +5747,17 @@ body.colored[class|=page-content] section.contact a {
 	background-color:#000
 }
 #loader.loading--change .des-inner--stroke {
-	-webkit-text-stroke:1.5px #F5EFE1;
-	text-shadow:1.5px #F5EFE1;
+	-webkit-text-stroke:1.5px #FAF7F0;
+	text-shadow:1.5px #FAF7F0;
 }
 @media screen and (max-width: 576px) {
 	#loader.loading--change .des-inner--stroke {
-		-webkit-text-stroke:2px #F5EFE1;
-		text-shadow:1px #F5EFE1
+		-webkit-text-stroke:2px #FAF7F0;
+		text-shadow:1px #FAF7F0
 	}
 }
 #loader.loading--change .des-inner {
-	color:#F5EFE1
+	color:#FAF7F0
 }
 #loader.loading--end {
 	opacity:0;
@@ -5779,7 +5784,7 @@ html {
 	width:6px;
 	left:auto;
 	bottom:0;
-	background-color:#F5EFE1
+	background-color:#FAF7F0
 }
 #scrollbar-wrapper .scrollbar {
 	position:absolute;
@@ -5833,7 +5838,7 @@ html {
 }
 #awesome-bg {
 	position:fixed;
-	background-color:#F5EFE1;
+	background-color:#FAF7F0;
 	left:0;
 	right:0;
 	bottom:0;
@@ -6409,7 +6414,7 @@ html {
 }
 .lightbox .item-full .image .cta {
 	position:absolute;
-	bottom:-65px;
+	bottom:50px;
 	left:-40px;
 	z-index:3;
 	opacity:0;
@@ -6521,7 +6526,7 @@ html {
 	font-size:2rem;
 	line-height:1.1;
 	z-index:4;
-	color:#F5EFE1;
+	color:#FAF7F0;
 	padding-left:4rem;
 	padding-bottom:3rem
 }
@@ -6708,7 +6713,7 @@ footer:after {
 	left:20px;
 	bottom:20px;
 	right:20px;
-	background-color:#F5EFE1;
+	background-color:#FAF7F0;
 	z-index:1
 }
 @media screen and (max-width: 576px) {
