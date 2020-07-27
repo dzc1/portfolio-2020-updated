@@ -5283,7 +5283,7 @@ body.colored[class|=page-content] section.contact a {
 		transform:translate(-50%,
 		-50%);
 		justify-content: center;
-		left:50%;
+		right: 50%;
 	}
 }
 @media only screen and (device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
