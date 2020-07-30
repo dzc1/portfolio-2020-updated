@@ -4769,7 +4769,14 @@ p span[class*=s-].active:nth-of-type(8) span {
 	}
 }
 [class|=page-content] section.awards .maintitle {
-	text-align:right
+	text-align:right;
+	padding-bottom: 20px;
+	
+}
+
+[class|=page-content] section.works .maintitle {
+	text-align:right;
+	padding-bottom: 20px;
 	
 }
 @media (max-width: 767px) {
@@ -5173,7 +5180,7 @@ body.colored[class|=page-content] section.contact a {
 	255,
 	0.7);
 	font-size:1rem;
-	padding-left:60px;
+	padding-left:0px;
 	padding-top:25px;
 	margin-bottom:0
 }
@@ -6568,7 +6575,8 @@ html {
 	255,
 	0.7);
 	margin-bottom:0;
-	line-height:2
+	line-height:2;
+	margin-left: 65px;
 }
 @media screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 700px) {
 	.lightbox .item-full .content p {
