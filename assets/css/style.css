@@ -6488,19 +6488,19 @@ html {
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
 	.lightbox .item-full .content {
-		bottom:25%;
+		bottom:30%;
 		left:5%;
 		max-width:40%
 	}
 }
 @media screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 700px) {
 	.lightbox .item-full .content {
-		bottom:40px
+		bottom:30%;
 	}
 }
 @media screen and (max-width: 1279px) {
 	.lightbox .item-full .content {
-		bottom:20%;
+		bottom:25%;
 		left:5%;
 		max-width:40%
 	}
@@ -6598,8 +6598,9 @@ html {
 	top:65px;
 	font-family:"P",
 	sans-serif;
+	font-size: 18px;
 	color:white;
-	letter-spacing:0.55rem;
+	letter-spacing:0.35rem;
 	text-transform:uppercase;
 	cursor:pointer;
 	-webkit-user-select:none;
